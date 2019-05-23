@@ -1,0 +1,12 @@
+% PlotMEXCLP("D_MCLP1.txt","S_MCLP1.txt","ambloc_MCLP1.txt")
+% PlotMEXCLP("D_LSCM1.txt","S_LSCM1.txt","ambloc_LSCM1.txt")
+% PlotMEXCLP("D_DSM1.txt","S_DSM1.txt","ambloc_DSM1.txt")
+% PlotMEXCLP("D_MEXCLP0.4.txt","S_MEXCLP0.4.txt","ambloc_MEXCLP0.4.txt")
+% PlotMEXCLP("D_MEXCLP0.75.txt","S_MEXCLP0.75.txt","ambloc_MEXCLP0.75.txt")
+% PlotVecchie("D_Vecchie.txt","S_Vecchie.txt","Vecchie.txt")
+%Domanda("D_Vecchie.txt","S_Vecchie.txt","Vecchie.txt")
+
+% ExpCover("D_MCLP1.txt","S_MCLP1.txt","ambloc_MCLP1.txt","expcover_MCLP.txt")
+% ExpCover("D_LSCM1.txt","S_LSCM1.txt","ambloc_LSCM1.txt","expcover_LSCM.txt")
+% ExpCover("D_DSM1.txt","S_DSM1.txt","ambloc_DSM1.txt","expcover_DSM1.txt")
+% ExpCover("D_MEXCLP0.75.txt","S_MEXCLP0.75.txt","ambloc_MEXCLP0.75.txt","expcover_MEXCLP0.75.txt")

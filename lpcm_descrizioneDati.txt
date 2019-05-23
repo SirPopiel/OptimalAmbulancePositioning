@@ -1,0 +1,12 @@
+param n;# numero punti di domanda
+param p;# numero colonnine attuali
+set DOM:=1..n; 
+set COL:=1..n;
+
+param mat{COL,DOM} binary; # matrice di copertura entro 8 minuti
+param matv{COL,DOM} binary; # matrice di copertura entro la seconda soglia
+
+param D{DOM} ; # numero di chiamate per interventi urgenti (codici rossi e gialli)
+param V{DOM} ; # numero di chiamate per codici verdi
+param K{COL} ; # numero di missioni eseguibili 
+
